@@ -1,25 +1,25 @@
 import React from "react";
-import styles from "./main-page.module.css";
+// import styles from "./main-page.module.css";
 
 const MainPage = () => {
   return (
     <div>
-      <div className={styles.login_background}>
-        <div className={styles.login_window}>
-          <div className={styles.login_content}>
-            <div className={styles.title}>
+      <div>
+        <div>
+          <div>
+            <div>
               <span>taekstock</span>
               <span>Connect and share with the people in your life</span>
             </div>
-            <div className={styles.inputs}>
+            <div>
               <input type="text" />
               <input type="text" />
             </div>
-            <div className={styles.checkbox}>
-              <input type="checkbox" name="first"/>
+            <div>
+              <input type="checkbox" id="first"/>
               <label htmlFor="first">Keep me logged in</label>  <span>Forgot your password</span>
             </div>
-            <div className={styles.button}>
+            <div>
               <button>Login</button> <span>Create Your Account</span>
             </div>
           </div>
