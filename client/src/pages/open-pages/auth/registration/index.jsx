@@ -1,11 +1,14 @@
-import React from 'react'
+// Import Engine
+import React from "react";
 
+// Create Registration Page
 const Registration = () => {
   return (
     <div>
       
     </div>
   )
-}
+};
 
-export default Registration
+// Export Registration Page
+export default Registration;

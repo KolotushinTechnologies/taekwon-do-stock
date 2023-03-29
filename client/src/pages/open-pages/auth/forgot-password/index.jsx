@@ -1,11 +1,14 @@
-import React from 'react'
+// Import Engine
+import React from "react";
 
+// Create Forgot Password Page
 const ForgotPassword = () => {
   return (
     <div>
       
     </div>
   )
-}
+};
 
-export default ForgotPassword
+// Export Forgot Password
+export default ForgotPassword;
