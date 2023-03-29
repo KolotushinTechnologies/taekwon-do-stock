@@ -1,9 +1,9 @@
 import React from "react";
 import {Routes, Route} from 'react-router-dom'
 import ForgotPassword from "./pages/open-pages/auth/forgot-password";
-import Login from "./pages/open-pages/auth/login";
+import Login from "./pages/open-pages/auth/login/login-page"
 import Registration from "./pages/open-pages/auth/registration";
-import MainPage from "./pages/open-pages/main-page";
+import MainPage from "./pages/open-pages/main-page/main-page";
 import UserProfile from "./pages/private-pages/profile/user-profile";
 import UserSettings from "./pages/private-pages/profile/user-settings";
 import All from "./pages/private-pages/stock/all";

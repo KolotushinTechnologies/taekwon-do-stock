@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Segoe UI";
+  src: url(../../../../public/Segoe\ UI.ttf);
+}
+.login_background::after {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  display: flex;
+}
+.login_background {
+  background: url(../../../../public/collage-585x391.webp);
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+  font-family: "Segoe UI";
+}
+
+.login_window {
+  background-color: #365d98;
+  z-index: 1;
+}
+
+.login_content {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  height: 250px;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+.title span:first-child {
+  font-size: 40px;
+  color: #fff;
+}
+.title span:last-child {
+  color: #b5c9dd;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs input {
+  background-color: #2a4773;
+  outline: none;
+  border-radius: 30px;
+  padding: 6px 0 6px 13px;
+  color: #8ea8cc;
+}
+.inputs input:first-child {
+  margin-bottom: 10px;
+}
+.checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox input[type="checkbox"] + label::before {
+  content: "";
+  display: block;
+  background-color: #2a4773;
+}
+
+.checkbox label {
+  color: #6b89b1;
+}
+
+.checkbox span {
+  color: #5688bf;
+}
+.button button {
+  background: #3e8ce3;
+  border-radius: 30px;
+  padding: 7px 20px;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #4a5866 #000 #4a5866;
+
+}
+.button {
+    color: #d4e4ea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 240px;
+}
