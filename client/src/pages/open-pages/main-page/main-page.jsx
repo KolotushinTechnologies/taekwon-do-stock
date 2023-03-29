@@ -1,6 +1,10 @@
+// Import Engine
 import React from "react";
+
+// Import Styles Modules and Mdedia Stack
 // import styles from "./main-page.module.css";
 
+// Create Main Page
 const MainPage = () => {
   return (
     <div>
@@ -29,4 +33,5 @@ const MainPage = () => {
   );
 };
 
+// Export Main Page
 export default MainPage;

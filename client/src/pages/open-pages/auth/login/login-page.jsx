@@ -1,7 +1,11 @@
+// Import Engine
 import React from "react";
+
+// Import Components
 import Button from "../../../../components/UI/button/Button";
 import Input from "../../../../components/UI/input/Input";
 
+// Crate Login Page
 const Login = () => {
   return (
     <div className="bg-[url('/public/collage-585x391.webp')] h-screen after:content-[''] relative flex items-center justify-center z-0 after:absolute after:bg-[dark-bg] after:top-0 after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:flex">
@@ -32,4 +36,5 @@ const Login = () => {
   );
 };
 
+// Exprot Login Page
 export default Login;
