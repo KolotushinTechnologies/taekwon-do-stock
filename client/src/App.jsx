@@ -14,7 +14,7 @@ import MainPage from "./pages/open-pages/main-page/main-page";
 // Import Private Pages
 import UserProfile from "./pages/private-pages/profile/user-profile";
 import UserSettings from "./pages/private-pages/profile/user-settings";
-import HomePage from "./pages/private-pages/Home/Home-page";
+import HomePage from "./pages/private-pages/Home/home-page";
 import All from "./pages/private-pages/stock/all";
 import Id from "./pages/private-pages/stock/id";
 

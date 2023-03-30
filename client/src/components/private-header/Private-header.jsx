@@ -1,6 +1,6 @@
 //Import React Engine
 import React from "react";
-import Input from "../UI/input/Input";
+import Input from "../UI/input/input";
 
 //Create Private Header
 const PrivateHeader = () => {
