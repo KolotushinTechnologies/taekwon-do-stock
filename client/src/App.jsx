@@ -2,7 +2,11 @@
 import React from "react";
 
 // Import Engine Routing
-import {Routes, Route} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+
+// Redux
+import { Provider } from "react-redux";
+import store from "./store";
 
 // Import Pages
 // Import Open Pages
@@ -23,19 +27,21 @@ import Id from "./pages/private-pages/stock/id";
 // Create App
 function App() {
   return (
-    <div className="App">
-      <Routes>
-        <Route path="/" element={<MainPage/>}/>
-        <Route path="/home" element={<HomePage/>}/>
-        <Route path="/forgot-password" element={<ForgotPassword/>}/>
-        <Route path="/login" element={<Login/>}/>
-        <Route path="/registration" element={<Registration/>}/>
-        <Route path="/user-profile" element={<UserProfile/>}/>
-        <Route path="/user-settings" element={<UserSettings/>}/>
-        <Route path="/stock-all" element={<All/>}/>
-        <Route path="/stock-id/:id" element={<Id/>}/>
-      </Routes>
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/forgot-password" element={<ForgotPassword />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/registration" element={<Registration />} />
+          <Route path="/user-profile" element={<UserProfile />} />
+          <Route path="/user-settings" element={<UserSettings />} />
+          <Route path="/stock-all" element={<All />} />
+          <Route path="/stock-id/:id" element={<Id />} />
+        </Routes>
+      </div>
+    </Provider>
   );
 }
 
