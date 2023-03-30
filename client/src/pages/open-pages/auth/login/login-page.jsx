@@ -17,10 +17,10 @@ const Login = () => {
           </div>
           <div className="flex flex-col">
             <Input
-              className=" py-[6px] pr-0 pl-3 text-[#8ea8cc] mb-2"
+              className="py-[6px] pr-0 pl-3 text-[#8ea8cc] mb-2"
             />
             <Input
-              className=" py-[6px] pr-0 pl-3 text-[#8ea8cc]"
+              className="py-[6px] pr-0 pl-3 text-[#8ea8cc]"
             />
           </div>
           <div className="flex items-center justify-between mt-2">
