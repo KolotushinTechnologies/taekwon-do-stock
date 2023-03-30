@@ -37,7 +37,7 @@ const HomePage = () => {
             <div className="bg-[#fff]"></div>
             <div className="grid grid-cols-2">
               <div className="bg-[color:var(--main-color)]"></div>
-              <img src="/krasnoe-selo.orig.jpg" alt="" />
+              <img src="/krasnoe-selo.orig.jpg" className="h-full" alt="" />
             </div>
           </div>
           <div className="grid grid-rows-2">

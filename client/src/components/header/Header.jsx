@@ -3,7 +3,7 @@ import Input from "../UI/input/Input";
 
 const Header = () => {
   return (
-    <header className="bg-[color:var(--main-color)] flex justify-between p-4 items-center">
+    <header className="bg-[color:var(--main-color)] flex justify-between p-4 items-center sticky top-0">
       <div className="w-full max-w-5xl">
         <ul className="flex text-[#fff] justify-between items-center">
           <li className="text-[30px]">taekstock</li>
@@ -12,8 +12,6 @@ const Header = () => {
           <li>Events</li>
           <li>Photos</li>
           <li>Find Friends</li>
-          <li></li>
-          <li></li>
         </ul>
       </div>
       <div className="w-full max-w-xs">
