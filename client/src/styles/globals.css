@@ -12,3 +12,8 @@
   font-family: "Segoe UI";
   src: url(../../public/Segoe\ UI.ttf);
 }
+
+:root {
+    --input-color: #2a4773;
+    --main-color: #365d98;
+}
