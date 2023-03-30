@@ -2,7 +2,7 @@
 import React from "react";
 
 // Import Header Component
-import Header from "../../../components/header/Header";
+import Header from "../../../components/header/header";
 
 //Import Private Header Component
 import PrivateHeader from "../../../components/private-header/Private-header";

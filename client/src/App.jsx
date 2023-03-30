@@ -16,7 +16,7 @@ import Registration from "./pages/open-pages/auth/registration";
 import MainPage from "./pages/open-pages/main-page/main-page";
 
 // Import Private Pages
-import UserProfile from "./pages/private-pages/profile/user-profile";
+import AboutPage from "./pages/private-pages/profile/user-profile/about-page"
 import UserSettings from "./pages/private-pages/profile/user-settings";
 import HomePage from "./pages/private-pages/Home/home-page";
 import All from "./pages/private-pages/stock/all";
@@ -35,7 +35,7 @@ function App() {
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/login" element={<Login />} />
           <Route path="/registration" element={<Registration />} />
-          <Route path="/user-profile" element={<UserProfile />} />
+          <Route path="/about-page" element={<AboutPage />} />
           <Route path="/user-settings" element={<UserSettings />} />
           <Route path="/stock-all" element={<All />} />
           <Route path="/stock-id/:id" element={<Id />} />
